@@ -1,0 +1,103 @@
+2025-02-18 04:31:24 WARNING  --insecure flag set. Caldera will use the default user accounts in default.yml config file.                                                         server.py:226
+INFO     Using main config from conf/default.yml                                                                                                             server.py:235
+2025-02-18 04:31:25 INFO     Setting VueJS environment file.                                                                                                                     server.py:151
+INFO     Building VueJS front-end.                                                                                                                           server.py:273
+
+up to date, audited 774 packages in 15s
+
+100 packages are looking for funding
+run `npm fund` for details
+
+19 vulnerabilities (10 moderate, 8 high, 1 critical)
+
+To address issues that do not require attention, run:
+npm audit fix
+
+To address all issues (including breaking changes), run:
+npm audit fix --force
+
+Run `npm audit` for details.
+
+> magma@0.0.0 build
+> node prebundle.js && vite build
+
+Copying all plugin GUI source files to magma
+Copying over "access" files...
+Copying over "atomic" files...
+Copying over "builder" files...
+Copying over "compass" files...
+Copying over "debrief" files...
+Copying over "emu" files...
+Copying over "gameboard" files...
+Copying over "human" files...
+Copying over "manx" files...
+Copying over "response" files...
+Copying over "sandcat" files...
+Copying over "ssl" files...
+Copying over "stockpile" files...
+Copying over "training" files...
+Plugin GUI source files copied!
+vite v2.9.15 building for production...
+transforming...
+✓ 1843 modules transformed.
+rendering chunks...
+dist/assets/favicon.cc1c341b.ico                   69.07 KiB
+dist/assets/caldera-logo.6a24b35b.png              16.51 KiB
+dist/assets/caldera-logo-mtn.88f0ff8a.png          36.07 KiB
+dist/assets/darwin-icon-privileged.ffa7a1c2.svg    0.68 KiB
+dist/assets/windows-icon.2e7338a5.svg              0.37 KiB
+dist/assets/windows-icon-privileged.e4e076e8.svg   0.39 KiB
+dist/assets/linux-icon.df96f069.svg                3.65 KiB
+dist/assets/linux-icon-privileged.d1ede01c.svg     3.66 KiB
+dist/assets/darwin-icon.95280721.svg               0.67 KiB
+dist/index.html                                    0.46 KiB
+dist/assets/compass.b93402d4.js                    5.22 KiB / gzip: 2.22 KiB
+dist/assets/builder.ad94ba39.js                    1.31 KiB / gzip: 0.71 KiB
+dist/assets/atomic.dde6889a.js                     1.05 KiB / gzip: 0.62 KiB
+dist/assets/emu.70525a0e.js                        1.56 KiB / gzip: 0.70 KiB
+dist/assets/gameboard.2270f9b8.js                  21.79 KiB / gzip: 6.09 KiB
+dist/assets/access.50f0ee1a.js                     12.71 KiB / gzip: 3.97 KiB
+dist/assets/manx.7f8ae0b5.js                       6.54 KiB / gzip: 2.46 KiB
+dist/assets/sandcat.3355ce3c.js                    0.68 KiB / gzip: 0.44 KiB
+dist/assets/response.9313ad20.js                   1.60 KiB / gzip: 0.83 KiB
+dist/assets/stockpile.ef7aecce.js                  1.61 KiB / gzip: 0.76 KiB
+dist/assets/human.e2faaa90.js                      11.80 KiB / gzip: 3.46 KiB
+dist/assets/debrief.15478418.js                    28.20 KiB / gzip: 7.40 KiB
+dist/assets/training.ed4bbd22.js                   8.96 KiB / gzip: 3.54 KiB
+dist/assets/human.d7b43e12.css                     2.31 KiB / gzip: 0.78 KiB
+dist/assets/ssl.3b469809.js                        0.98 KiB / gzip: 0.62 KiB
+dist/assets/access.b689ce59.css                    0.32 KiB / gzip: 0.20 KiB
+dist/assets/compass.4b402f52.css                   0.12 KiB / gzip: 0.12 KiB
+dist/assets/manx.fdacbfd3.css                      3.11 KiB / gzip: 1.51 KiB
+dist/assets/response.9692d0ec.css                  0.20 KiB / gzip: 0.13 KiB
+dist/assets/debrief.854158fe.css                   0.79 KiB / gzip: 0.34 KiB
+dist/assets/training.9d43ffbb.css                  3.86 KiB / gzip: 1.06 KiB
+dist/assets/gameboard.430857df.css                 2.01 KiB / gzip: 0.68 KiB
+dist/assets/index.907db634.css                     248.58 KiB / gzip: 33.88 KiB
+dist/assets/index.bc299bb9.js                      1738.21 KiB / gzip: 558.27 KiB
+2025-02-18 04:32:48 INFO     VueJS front-end build complete.                                                                                                                     server.py:276
+2025-02-18 04:32:51 WARNING  /usr/local/lib/python3.11/dist-packages/asyncssh/crypto/cipher.py:29: CryptographyDeprecationWarning: ARC4 has been moved to                      warnings.py:109
+cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from this module in 48.0.0.
+from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+
+WARNING  /usr/local/lib/python3.11/dist-packages/asyncssh/crypto/cipher.py:30: CryptographyDeprecationWarning: TripleDES has been moved to                 warnings.py:109
+cryptography.hazmat.decrepit.ciphers.algorithms.TripleDES and will be removed from this module in 48.0.0.
+from cryptography.hazmat.primitives.ciphers.algorithms import TripleDES
+
+INFO     Invalid Github Gist personal API token provided. Gist C2 contact will not be started.                                                          contact_gist.py:70
+INFO     Generating temporary SSH private key. Was unable to use provided SSH private key                                                                 tunnel_ssh.py:26
+INFO     Enabled plugin: response                                                                                                                           app_svc.py:131
+INFO     Enabled plugin: stockpile                                                                                                                          app_svc.py:131
+INFO     Enabled plugin: magma                                                                                                                              app_svc.py:131
+INFO     Enabled plugin: training                                                                                                                           app_svc.py:131
+2025-02-18 04:32:52 INFO     Enabled plugin: access                                                                                                                             app_svc.py:131
+INFO     Enabled plugin: manx                                                                                                                               app_svc.py:131
+INFO     Enabled plugin: debrief                                                                                                                            app_svc.py:131
+2025-02-18 04:32:55 INFO     Enabled plugin: sandcat                                                                                                                            app_svc.py:131
+ERROR    Error importing plugin=builder, No module named 'docker'                                                                                           c_plugin.py:91
+ERROR    Error loading plugin=builder, 'NoneType' object has no attribute 'description'                                                                     c_plugin.py:59
+INFO     Enabled plugin: atomic                                                                                                                             app_svc.py:131
+INFO     Enabled plugin: compass                                                                                                                            app_svc.py:131
+INFO     Enabled plugin: fieldmanual                                                                                                                        app_svc.py:131
+INFO     Creating SSH listener on 0.0.0.0, port 8022                                                                                                         logging.py:92
+INFO     serving on 0.0.0.0:2222                                                                                                                             server.py:741
